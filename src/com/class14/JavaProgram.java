@@ -20,8 +20,8 @@ public class JavaProgram
 		String a="hello";
 		String b="bye";
 		a=a+b;
-		b=(a.substring(0,a.length()-b.length()));
-		a=a.substring(b.length());
+		b=(a.substring(0,a.length()-b.length()));//b=0, 5//hello
+		a=a.substring(b.length());//5//bye
 		System.out.println(b);
 		System.out.println(a);
 	
@@ -81,9 +81,24 @@ public class JavaProgram
 					System.out.println("Not Palindrome");
 				}
 		
-				
-			
-	}
+			////////////////////////////////////////
+				 int[][] array = { {4,7,8},{8,8,7} };
+		         int count=0;
+		    for(int i=0;i<array.length;i++)
+		    {
+		        for(int j=0;j<array[0].length;j++)
+		        {
+		            if(array[i][j]==7)
+		            {
+		                count=count+i;
+		                }
+		            } 	
+		        	
+		           
+		    }
+		    System.out.println(count);
+		    }
+}
 		
-	}
+
 
