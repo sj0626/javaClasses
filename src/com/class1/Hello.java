@@ -1,5 +1,5 @@
 package com.class1;
-
+import com.class22.*;
 public class Hello {
 	public static void main(String[] args) {
 		// single line comment
@@ -8,6 +8,7 @@ public class Hello {
 		 * 
 		 */
 		System.out.println("hello World !");
+		AccessModifiers.hello();
 		//System.out.print("World" + " ");
 		//System.out.println("hello friends !!!");
 		//System.out.println();
