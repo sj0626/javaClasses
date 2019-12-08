@@ -3,9 +3,9 @@ package com.class25;
 public class scrumTeam extends Employees{
 
 
-	String artiFacts;
+	static String artiFacts="Product Backlog,Sprint Backlog,BurnDownChart";
 	
-  String Ceremonies="Sprint Demo,Planning,Retro,Daily Standup";
+ static  String Ceremonies="Sprint Demo,Planning,Retro,Daily Standup";
   
 	void attendScrumeetings()
 	{
